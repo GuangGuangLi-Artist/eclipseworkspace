@@ -3,6 +3,7 @@ package cn.itcast.code.day05;
 1:数组遍历
 2:获取最值
 3:数组逆序
+4:查找指定元素第一次出现的位置索引
  */
 
 public class ArrayTestOpe {
