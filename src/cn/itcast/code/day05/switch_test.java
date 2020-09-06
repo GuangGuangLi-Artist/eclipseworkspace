@@ -1,4 +1,4 @@
-package cn.itcast;
+package cn.itcast.code.day05;
 
 public class switch_test {
     public static void main(String[] args) {
