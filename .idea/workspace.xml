@@ -180,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599394786070" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599398112740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,11 +210,11 @@
   </component>
   <component name="RunManager" selected="Application.FunctionTestChen">
     <configuration name="FunctionTestChen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.FunctionTestChen" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day05.FunctionTestChen" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.*" />
+          <option name="PATTERN" value="cn.itcast.code.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +223,11 @@
       </method>
     </configuration>
     <configuration name="FunctionTestEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.FunctionTestEqual" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day05.FunctionTestEqual" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.*" />
+          <option name="PATTERN" value="cn.itcast.code.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +236,11 @@
       </method>
     </configuration>
     <configuration name="FunctionTestMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.FunctionTestMax" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day05.FunctionTestMax" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.*" />
+          <option name="PATTERN" value="cn.itcast.code.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +249,11 @@
       </method>
     </configuration>
     <configuration name="FunctionTestThreeMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.FunctionTestThreeMax" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day05.FunctionTestThreeMax" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.*" />
+          <option name="PATTERN" value="cn.itcast.code.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +262,11 @@
       </method>
     </configuration>
     <configuration name="FuntionOutFigure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.FuntionOutFigure" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day05.FuntionOutFigure" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.*" />
+          <option name="PATTERN" value="cn.itcast.code.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

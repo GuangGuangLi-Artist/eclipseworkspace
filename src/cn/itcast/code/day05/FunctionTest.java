@@ -1,4 +1,4 @@
-package cn.itcast.code;
+package cn.itcast.code.day05;
 
 public class FunctionTest {
     public static void main(String[] args) {

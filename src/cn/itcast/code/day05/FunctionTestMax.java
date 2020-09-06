@@ -1,4 +1,4 @@
-package cn.itcast.code;
+package cn.itcast.code.day05;
 /*
 键盘例如两个数，返回两个数中的最大值
 

@@ -1,4 +1,4 @@
-package cn.itcast.code;
+package cn.itcast.code.day05;
 /*
 键盘例如两个数，p判断两个数是否相等
 

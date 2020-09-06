@@ -1,4 +1,4 @@
-package cn.itcast.code;
+package cn.itcast.code.day05;
 /*
 键盘输入三个数，返回三个数中的最大值
 
