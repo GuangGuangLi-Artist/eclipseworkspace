@@ -3,6 +3,12 @@ package cn.itcast.code.day10;
 public class InterfaceDemo {
     public static void main(String[] args) {
 
+        BasketBallSportsMan bp = new BasketBallSportsMan();
+
+
+        PingPangSportsMan ps = new PingPangSportsMan();
+        ps.speak();
+
     }
 }
 
