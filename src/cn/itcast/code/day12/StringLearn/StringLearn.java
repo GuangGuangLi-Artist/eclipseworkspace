@@ -14,6 +14,7 @@ package cn.itcast.code.day12.StringLearn;
 
     字符串的值一旦被赋值，就不能被改变，是指值不能被改变，不是引用不能变
 
+
  */
 public class StringLearn {
     public static void main(String[] args) {
