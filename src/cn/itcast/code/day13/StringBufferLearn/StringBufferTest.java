@@ -41,6 +41,20 @@ public class StringBufferTest {
         System.out.println("s6: " + s6);
         System.out.println("---------");
 
+        //使用StringBuffer做反转
+        String res = myReverse("abcde");
+        System.out.println(res);
+        System.out.println("---------");
+
+        //字符串是否对称
+        boolean b = isSymmetrical("abbba");
+        System.out.println(b);
+        System.out.println("---------");
+
+        boolean b1 = isSymmetrical2("abcde");
+        System.out.println(b1);
+        System.out.println("---------");
+
 
 
     }
@@ -62,4 +76,43 @@ public class StringBufferTest {
           sb.append("]");
           return sb.toString();
       }
+
+      /*
+      把字符串反转
+
+       */
+
+      public static String myReverse(String s){
+          StringBuffer sb = new StringBuffer(s);
+          return sb.reverse().toString();
+      }
+
+      /*
+      判断一个字符串是否是对称字符串
+            例如"abc"不是对称字符串，"aba"、"abba"、"aaa"、"mnanm"是对称字符串
+
+       */
+
+      //一个个比较
+      public static boolean isSymmetrical(String s){
+          Boolean flag = true;
+          char [] chs = s.toCharArray();
+          for (int start = 0, end = chs.length - 1 ; start <= end; start++, end--) {
+              if(chs[start] != chs[end]){
+                  flag = false;
+                  break;
+              }
+
+          }
+          return flag;
+      }
+
+      //使用字符串缓冲区
+      public static boolean isSymmetrical2(String s){
+          return new StringBuffer(s).reverse().toString().equals(s);
+      }
+
+
+
+
 }
