@@ -81,6 +81,84 @@
     public static int binarySearch(int[] a,int key)：二分查找
     public static void sort(int[] a)：对指定的 int 型数组按数字升序进行排序
     public static String toString(boolean[] a)：返回指定数组内容的字符串表示形式。
+
+### 基本类型的包装类
+    public static final int MAX_VALUE 表示 int 类型能够表示的最大值
+    public static final int MIN_VALUE 表示 int 类型能够表示的最小值
+    public static String toBinaryString(int i) 以二进制（基数 2）无符号整数形式返回一个整数参数的字符串表示形式。
+    public static String toHexString(int i) 以十六进制（基数 16）无符号整数形式返回一个整数参数的字符串表示形式。
+    public static String toOctalString(int i) 以八进制（基数 8）无符号整数形式返回一个整数参数的字符串表示形式。
+        为了对基本数据类型进行更多的操作，java就针对每一种基本数据类型提供了对应的类型，称为包装类类型
+        byte   Byte
+        short   Short
+        int     Integer
+        long    Long
+        float   Float
+        double  Double
+        char    Character
+        boolean  Boolean
+    常用的操作之一：用于基本数据类型与字符串之间的转换
+    Integer的构造方法
+        public Integer(int value)
+        public Integer(String s)
+        注意：这个字符串必须由数字组成
+    int类型和String类型的相互转换
+        int – String
+ ```java
+ //方法一
+         String s1 = "" + num;
+         System.out.println("s1: " + s1);
+ 
+         //方法二  推荐方法
+         String s2 = String.valueOf(num);
+         System.out.println("s2: " + s2);
+ 
+         //方法三  int ---Interger -- String
+         Integer i_4 = new Integer(num);
+         String s3 = i_4.toString();
+         System.out.println("s3: " + s3);
+ 
+         //方式四  public static String toString(int i) 返回一个表示指定整数的 String 对象
+         String s4 = Integer.toString(num);
+         System.out.println("s4: " + s4);
+
+        
+ ```       
+        String – int  常用public static int parseInt(String s,int radix)
+```java
+        String s5 = "2000";
+
+        //方式一 String  -- Integer -- int
+        //public int intValue()
+        Integer i_5 = new Integer(s5);
+        int x  = i_5.intValue();
+        System.out.println("x: " + x);
+
+        //方式二 public static int parseInt(String s,int radix)throws NumberFormatException
+        int y = Integer.parseInt(s5);
+        System.out.println("y: " + y);
+```        
+
+       进制转化
+       常用的基本进制转换
+       public static String toBinaryString(int i)
+       public static String toOctalString(int i)
+       public static String toHexString(int i)
+       十进制到其他进制   进制的范围  2 - 36   （0-9） + （a-z）
+       public static String toString(int i,int radix)
+       其他进制到十进制
+       public static int parseInt(String s,int radix)
+### 自动包装和拆箱
+    包装和拆箱
+         自动装箱：把基本类型转化为包装类类型
+         自动拆箱：把包装类类型转化为基本类型
+         注意：
+            在使用时，Integer  x = null;上面的代码就会出现NullPointerException。
+
+### Character的使用
+                       
+
+
                             
                     
             
