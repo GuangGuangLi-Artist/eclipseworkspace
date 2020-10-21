@@ -38,9 +38,11 @@ package cn.itcast.code.day14.RegexLearn;
         分割功能
             public String[] split(String regex) 围绕此模式的匹配拆分给定输入序列
         替换功能
-            public String replaceAll(String regex,String replacement)
+            public String replaceAll(String regex,String replacement)  使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串
         获取功能
             Pattern和Matcher类的使用
+                public boolean find() 尝试查找与该模式匹配的输入序列的下一个子序列。
+
 
 
 
@@ -50,8 +52,11 @@ package cn.itcast.code.day14.RegexLearn;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class RegexLearn {
+
     public static void main(String[] args) {
        /* Scanner sc = new Scanner(System.in);
         System.out.println("请输入你的qq号码:");
@@ -114,6 +119,49 @@ public class RegexLearn {
 
         String res = String.valueOf(sb);
         System.out.println("res: " + res);
+
+        System.out.println("替换功能");
+
+        String s2 = "helloqq12345worldkh622112345678java";
+
+        String regex = "\\d+";
+        String regex1 = "\\d";
+
+        String s3 = "*";
+        String result = s2.replaceAll(regex1,s3);
+        System.out.println(result);
+
+        System.out.println("获取功能");
+
+        //模式和匹配器的典型调用顺序，
+        //把正则表达式编译成模式对象
+        Pattern p = Pattern.compile("a*b");
+        //通过模式对象得到匹配器对象，这个时候需要的是被匹配的字符串
+        Matcher m = p.matcher("aaaaab");
+        //调用匹配器对象的功能
+        boolean b = m.matches();
+        System.out.println(b);
+
+        //da jia ting wo shuo,jin tian yao xia yu,bu shang wan zi xi,gao xing bu? 获取这个字符串中由三个字符组成的单词
+
+        String ss = "da jia ting wo shuo,jin tian yao xia yu,bu shang wan zi xi,gao xing bu?";
+
+        Pattern pp = Pattern.compile("\\b\\w{3}\\b");
+        Matcher mm = pp.matcher(ss);
+
+        //通过find方法就是查找有没有满足条件的子序列
+        boolean bb = mm.find();
+        System.out.println(bb);
+        String sss = mm.group();
+        System.out.println(sss);
+
+        while (mm.find()){
+            System.out.println(mm.group());
+        }
+
+
+
+
 
 
 
