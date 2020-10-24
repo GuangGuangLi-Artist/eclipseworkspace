@@ -72,4 +72,49 @@
                 public static long currentTimeMillis()  返回以毫秒为单位的当前时间。
                 public static void arraycopy(Object src,int srcPos,Object dest,int destPos,int length 从指定源数组中复制一个数组，复制从指定的位置开始，到目标数组的指定位置结束。
         
+        BigInteger类概述
+                可以让超过Integer范围内的数据进行运算
+            构造方法
+                public BigInteger(String val)
         
+            BigInteger类成员方法
+                public BigInteger add(BigInteger val)
+                public BigInteger subtract(BigInteger val)
+                public BigInteger multiply(BigInteger val)
+                public BigInteger divide(BigInteger val)
+                public BigInteger[] divideAndRemainder(BigInteger val)
+                
+        BigDecimal
+                由于在运算的时候，float类型和double很容易丢失精度，演示案例。所以，为了能精确的表示、计算浮点数，Java提供了BigDecimal
+            BigDecimal类概述
+                不可变的、任意精度的有符号十进制数。
+            构造方法
+                public BigDecimal(String val)
+        
+            成员方法
+                public BigDecimal add(BigDecimal augend)
+                public BigDecimal subtract(BigDecimal subtrahend)
+                public BigDecimal multiply(BigDecimal multiplicand)
+                public BigDecimal divide(BigDecimal divisor)
+                public BigDecimal divide(BigDecimal divisor,int scale,
+                     int roundingMode) divisor - 此 BigDecimal 要除以的值。scale - 要返回的 BigDecimal 商的标度。  roundingMode - 要应用的舍入模式。
+        Date
+            Date类概述
+                类 Date 表示特定的瞬间，精确到毫秒。
+            构造方法
+                public Date() 分配 Date 对象并初始化此对象，以表示分配它的时间（精确到毫秒）。
+                public Date(long date)  分配 Date 对象并初始化此对象，以表示自从标准基准时间（称为“历元（epoch）”，即 1970 年 1 月 1 日 00:00:00 GMT）以来的指定毫秒数。
+            成员方法
+                public long getTime() 返回自 1970 年 1 月 1 日 00:00:00 GMT 以来此 Date 对象表示的毫秒数。
+                public void setTime(long time) 设置此 Date 对象，以表示 1970 年 1 月 1 日 00:00:00 GMT 以后 time 毫秒的时间点。
+        
+        DateFormat
+            DateFormat类概述
+                DateFormat 是日期/时间格式化子类的抽象类，它以与语言无关的方式格式化并解析日期或时间。
+                是抽象类，所以使用其子类SimpleDateFormat
+            SimpleDateFormat构造方法
+                public SimpleDateFormat()  默认格式
+                public SimpleDateFormat(String pattern)  给定模式
+            成员方法
+                public final String format(Date date)
+                public Date parse(String source)       

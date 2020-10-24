@@ -15,8 +15,8 @@ public class SystemLearn {
     public static void main(String[] args) {
 
         System.out.println("我们喜欢林青霞");
-//        System.exit(0);
-//        System.out.println("我们喜欢赵雅芝");
+        //System.exit(0);
+        //System.out.println("我们喜欢赵雅芝");
 
         System.out.println(System.currentTimeMillis());
 
