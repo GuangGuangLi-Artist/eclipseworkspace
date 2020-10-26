@@ -1,5 +1,7 @@
 package cn.itcast.code.day15.CollectLearn;
 
+import java.util.Objects;
+
 public class StudentsDemo {
 
 
@@ -49,7 +51,18 @@ public class StudentsDemo {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        StudentsDemo that = (StudentsDemo) o;
+        return age == that.age &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(gender, that.gender);
+    }
 
-
-
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, gender);
+    }
 }
