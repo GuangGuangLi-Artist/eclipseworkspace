@@ -99,6 +99,8 @@
      		这里的变量其实是一个数组
      		如果一个方法有可变参数，并且有多个参数，那么，可变参数肯定是最后一个
      		Arrays工具类中的一个方法
-     		public static <T> List<T> asList(T... a)
+     		public static <T> List<T> asList(T... a) 把数组转成集合
+     		注意事项：
+            		    虽然可以把数组转成集合，但是集合的长度不能改变
 
      	
