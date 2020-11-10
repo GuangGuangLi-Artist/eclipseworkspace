@@ -1,21 +1,22 @@
-package cn.itcast.code.day15.CollectLearn;
+package cn.itcast.code.day17.TreeSetLearn;
 
 import java.util.Objects;
 
-public class StudentsDemo implements Comparable<StudentsDemo> {
+public class StudensCoparable  {
 
 
     private String name;
     private int age;
     private String gender;
 
-    public StudentsDemo(){};
+    public StudensCoparable(){};
 
-    public StudentsDemo(String name, int age, String gender){
+    public StudensCoparable(String name, int age, String gender){
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
+
 
 
     public String getName() {
@@ -55,7 +56,7 @@ public class StudentsDemo implements Comparable<StudentsDemo> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        StudentsDemo that = (StudentsDemo) o;
+        StudensCoparable that = (StudensCoparable) o;
         return age == that.age &&
                 Objects.equals(name, that.name) &&
                 Objects.equals(gender, that.gender);
@@ -66,11 +67,8 @@ public class StudentsDemo implements Comparable<StudentsDemo> {
         return Objects.hash(name, age, gender);
     }
 
-    @Override
-    public int compareTo(StudentsDemo o) {
-        //返回什么需要根据排序规则
-        int num= this.age - o.age;
-        int num2  = num ==0?this.name.compareTo(o.name) : num;
-        return num2;
-    }
+
+
+
+
 }

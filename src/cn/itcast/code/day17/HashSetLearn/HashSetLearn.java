@@ -3,6 +3,7 @@ package cn.itcast.code.day17.HashSetLearn;
 import cn.itcast.code.day15.CollectLearn.StudentsDemo;
 
 import java.util.HashSet;
+import java.util.Random;
 
 public class HashSetLearn {
     public static void main(String[] args) {
@@ -40,5 +41,24 @@ public class HashSetLearn {
         for(StudentsDemo sd: hs3){
             System.out.println(sd.getName() + "---" + sd.getAge() + "------" + sd.getGender());
         }
+        System.out.println("---------");
+
+        //编写一个程序，获取10个1至20的随机数，要求随机数不能重复。
+
+
+
+        Random r = new Random();
+
+        HashSet<Integer> hs4 = new HashSet<Integer>();
+
+        while (hs4.size()<10){
+            int num = r.nextInt(20) + 1;
+            hs4.add(num);
+        }
+
+        for(Integer ii: hs4){
+            System.out.println(ii);
+        }
+
     }
 }
