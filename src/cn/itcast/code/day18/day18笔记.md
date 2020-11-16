@@ -72,6 +72,105 @@
         Map 接口的哈希表和链接列表实现，具有可预知的迭代顺序
             由哈希表保证键的唯一性
             由链表保证键的有序（存储和取出的顺序一致）
+            
+     1:Hashtable和HashMap的区别?
+      Hashtable:线程安全，效率低。不允许null键和null值
+      HashMap:线程不安全，效率高。允许null键和null值
+      
+      2:List,Set,Map等接口是否都继承子Map接口?
+      List，Set不是继承自Map接口，它们继承自Collection接口
+      Map接口本身就是一个顶层接口
+      
+      Collections:是针对集合进行操作的工具类，都是静态方法。
+      	
+    面试题：
+    Collection和Collections的区别?
+    Collection:是单列集合的顶层接口，有子接口List和Set。
+    Collections:是针对集合操作的工具类，有对集合进行排序和二分查找的方法
+    
+    要知道的方法
+    public static <T> void sort(List<T> list)：排序 默认情况下是自然顺序。
+    public static <T> int binarySearch(List<?> list,T key):二分查找
+    public static <T> T max(Collection<?> coll):最大值
+    public static void reverse(List<?> list):反转
+    public static void shuffle(List<?> list):随机置换
+      	
+    如果同时有自然排序和比较器排序，那么以比较器排序为准
+    
+    集合：
+        Colllection(单列集合)
+            List(有序，可重复)
+                ArrayList
+                    底层数据结构是数组，查询快，增删慢
+                    线程不安全,效率高
+                Vector
+                    底层数据结构是数组，查询快，增删慢
+                    线程安全,效率低
+                LinkedList
+                    底层数据结构是链表，查询慢，增删快
+                    线程不安全,效率高
+            Set(无序，唯一)
+                HashSet
+                    底层数据结构是哈希表
+                    哈希表依赖两个方法 hashCode()和eaquals()
+                    执行顺序：
+                        首先判断hashCode()值是否相同
+                            是:继续执行equals()方法，看其返回值
+                               是true:说明元素重复，不添加
+                               是法拉瑟：直接添加到集合
+                            否:直接添加到集合
+                LinkedHashSet
+                    底层数据结构由链表和哈希表组成
+                    由链表保证元素有序
+                    由哈希表保证元素唯一
+            TreeSet
+                底层数据结构是红黑树（是一种自平衡的二叉树）
+                如何保证元素的唯一性呢
+                    根据比较的返回值是否是0来决定
+                如何保证元素的排序呢？
+                    自然排序（元素具备比较性）
+                        让元素所属的类实现Comparable接口
+                    比较器排序（集合具备比较性）
+                        让集合接收一个Comparator的实现类对象
+        Map(双列集合)
+            Map集合的数据结构仅仅针对值有效，与值无关
+            存储的键值对形式的元素，键唯一，值可重复
+            
+            HashMap
+                底层数据结构是哈希表  线程不安全，效率高
+                    哈希表依赖两个方法 hashCode()和eaquals()
+                    执行顺序：
+                        首先判断hashCode()值是否相同
+                            是:继续执行equals()方法，看其返回值
+                               是true:说明元素重复，不添加
+                               是法拉瑟：直接添加到集合
+                            否:直接添加到集合
+                    LinkeedHashMap
+                        底层数据结构由链表和哈希表组成
+                            由链表保证元素有序
+                            由哈希表保证元素唯一
+                    
+            Hashtable
+                底层数据结构是哈希表 线程安全，效率低
+                    哈希表依赖两个方法 hashCode()和eaquals()
+                    执行顺序：
+                        首先判断hashCode()值是否相同
+                            是:继续执行equals()方法，看其返回值
+                               是true:说明元素重复，不添加
+                               是法拉瑟：直接添加到集合
+                            否:直接添加到集合
+            TreeMap
+                底层数据结构是红黑树（是一种自平衡的二叉树）
+                    如何保证元素的唯一性呢
+                        根据比较的返回值是否是0来决定
+                    如何保证元素的排序呢？
+                        自然排序（元素具备比较性）
+                            让元素所属的类实现Comparable接口
+                        比较器排序（集合具备比较性）
+                            让集合接收一个Comparator的实现类对象
+                
+                                  
+      
      
      		
      
