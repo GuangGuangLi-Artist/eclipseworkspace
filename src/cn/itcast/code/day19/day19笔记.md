@@ -171,3 +171,54 @@
     A:子类重写父类方法时，子类的方法必须抛出相同的异常或父类异常的子类。(父亲坏了,儿子不能比父亲更坏)
     B:如果父类抛出了多个异常,子类重写父类时,只能抛出相同的异常或者是他的子集,子类不能抛出父类没有的异常
     C:如果被重写的方法没有异常抛出,那么子类的方法绝对不可以抛出异常,如果子类方法内有异常发生,那么子类只能try,不能throws
+    
+    
+    我们要想实现IO的操作，就必须知道硬盘上文件的表现形式。
+    而Java就提供了一个类File供我们使用。
+    
+    File:文件和目录(文件夹)路径名的抽象表示形式
+    构造方法：
+    		File(String pathname)：根据一个路径得到File对象
+    		File(String parent, String child):根据一个目录和一个子文件/目录得到File对象
+    		File(File parent, String child):根据一个父File对象和一个子文件/目录得到File对象
+    		
+    创建功能：
+        public boolean createNewFile():创建文件 如果存在这样的文件，就不创建了
+        public boolean mkdir():创建文件夹 如果存在这样的文件夹，就不创建了
+        public boolean mkdirs():创建文件夹,如果父文件夹不存在，会帮你创建出来
+        
+        骑白马的不一定是王子，可能是班长。
+        注意：你到底要创建文件还是文件夹，你最清楚，方法不要调错了。
+    
+    删除功能:public boolean delete()
+    
+    注意：
+    		A:如果你创建文件或者文件夹忘了写盘符路径，那么，默认在项目路径下。
+    		B:Java中的删除不走回收站。
+    		C:要删除一个文件夹，请注意该文件夹内不能包含文件或者文件夹
+    重命名功能:public boolean renameTo(File dest)
+    		如果路径名相同，就是改名。
+    		如果路径名不同，就是改名并剪切。
+    
+            路径以盘符开始：绝对路径	c:\\a.txt
+            路径不以盘符开始：相对路径	a.txt
+    
+    判断功能:
+         public boolean isDirectory():判断是否是目录
+         public boolean isFile():判断是否是文件
+         public boolean exists():判断是否存在
+         public boolean canRead():判断是否可读
+         public boolean canWrite():判断是否可写
+         public boolean isHidden():判断是否隐藏
+        
+    获取功能：
+    	public String getAbsolutePath()：获取绝对路径
+    	public String getPath():获取相对路径
+    	public String getName():获取名称
+    	public long length():获取长度。字节数
+    	public long lastModified():获取最后一次的修改时间，毫秒值
+    获取功能：
+    	public String[] list():获取指定目录下的所有文件或者文件夹的名称数组
+    	public File[] listFiles():获取指定目录下的所有文件或者文件夹的File数组     
+       
+            
