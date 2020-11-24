@@ -219,6 +219,8 @@
     	public long lastModified():获取最后一次的修改时间，毫秒值
     获取功能：
     	public String[] list():获取指定目录下的所有文件或者文件夹的名称数组
-    	public File[] listFiles():获取指定目录下的所有文件或者文件夹的File数组     
+    	public File[] listFiles():获取指定目录下的所有文件或者文件夹的File数组 
+    
+        
        
             
