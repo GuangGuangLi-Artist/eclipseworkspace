@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fad0b04-5cf7-4cb3-8e44-9d38032ae98a" name="Default Changelist" comment="COde Block">
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day18/CollectionsLearn/CollectionsLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/CompileExceptionLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ExceptionLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ManyExceptionLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day19/day19笔记.md" afterDir="false" />
+    <list default="true" id="3fad0b04-5cf7-4cb3-8e44-9d38032ae98a" name="Default Changelist" comment="OutputStream">
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CollectionSaveToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyTextFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CpoyNotTextFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/FileSaveToCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/GetName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/itcast/code/day18/day18笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/code/day18/day18笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +17,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -25,9 +40,9 @@
     <session id="1474917254">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="54" />
+          <entry key="project.closed" value="65" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="10" />
+          <entry key="project.open.time.10" value="11" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -35,18 +50,21 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="9" />
-          <entry key="project.open.time.9" value="21" />
-          <entry key="project.opened" value="56" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="13" />
+          <entry key="project.open.time.9" value="25" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="b,txt" value="1" />
           <entry key="class" value="3" />
-          <entry key="java" value="190" />
-          <entry key="md" value="31" />
-          <entry key="txt" value="26" />
+          <entry key="java" value="248" />
+          <entry key="jpg" value="5" />
+          <entry key="md" value="36" />
+          <entry key="srt" value="1" />
+          <entry key="txt" value="64" />
           <entry key="txx" value="1" />
           <entry key="笔记,md" value="1" />
         </counts>
@@ -54,25 +72,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="190" />
-          <entry key="Markdown" value="31" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="248" />
+          <entry key="Markdown" value="36" />
+          <entry key="PLAIN_TEXT" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="16" />
-          <entry key="java" value="35150" />
-          <entry key="md" value="8877" />
-          <entry key="txt" value="73" />
+          <entry key="dummy" value="33" />
+          <entry key="java" value="42877" />
+          <entry key="md" value="9144" />
+          <entry key="txt" value="97" />
           <entry key="笔记,md" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="35151" />
-          <entry key="Markdown" value="8876" />
-          <entry key="PLAIN_TEXT" value="116" />
+          <entry key="JAVA" value="42878" />
+          <entry key="Markdown" value="9143" />
+          <entry key="PLAIN_TEXT" value="157" />
         </counts>
       </usages-collector>
     </session>
@@ -83,11 +102,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/day19笔记.md">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/day21笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="471">
-                <caret line="90" column="66" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
+              <first_editor relative-caret-position="354">
+                <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -95,10 +114,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/CompileExceptionLearn.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CollectionSaveToFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="357">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/FileSaveToCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="143" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="143" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#389#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/GetName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,13 +151,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ManyExceptionLearn.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyFolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="391" column="42" selection-start-line="391" selection-start-column="42" selection-end-line="391" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/name.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -139,57 +198,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/CollectLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/CollectiomErgodic.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day14/day14笔记.md" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/IteratorLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/ListLearn/ListLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/ListLearn/ListConcurrentModificationException.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/day15笔记.md" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/ArrayListLearn/ArrayListLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/VectorLearn/VectorLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/LinkedListLearn/LinkedListLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/ArrayListLearn/ArrayListTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/ArrayListLearn/ArrayListTestObject.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/LinkedListLearn/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/LinkedListLearn/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericClass.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericClassTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericFunction.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericFunctionTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericInterface.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericInterfaceImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericAdvanced.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/EnhanceForLearn/EnhanceForLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/StaticImportLearn/StaticImportLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/ArgsLearn/ArgsLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day16/day16.md" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/SetLearn/SetLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/HashSetLearn/LinkedHashSet.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/HashSetLearn/LinkedHashSetLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/StudentsDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/TreeSetLearn/StudensCoparable.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/day17.md" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/HashSetLearn/HashSetLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/TreeSetLearn/TreeSetLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day17/TreeSetLearn/MyComparator.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/MapLearn/MapLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/HashMapLearn/HashMapLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/TreeMapLearn/TreeMapLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/TreeMapLearn/TreeMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/MapPractise.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/HashMapPractise.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/HashMapArrayListPratise.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/ArrayListHashMapPratise.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/HashMapNested.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/CollectionsLearn/CollectionsLearn.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day18/day18笔记.md" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ExceptionLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/day19笔记.md" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/CompileExceptionLearn.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ManyExceptionLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ThrowAndThrowsLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/FinallyLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/FinallyInterview.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/MyExceptionLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/FileLearn/FileDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/FileLearn/FileDemo2.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/FileLearn/BatchEditFileName.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day19/day19笔记.md" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/RecurrenceLearn/RecurrenceLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/RecurrenceLearn/RecurrenceDemo1.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/RecurrenceLearn/RecurrenceDemo2.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/OutputStreamLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileOutputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileInputStream.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileInputStreamLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/CopyFileLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileInputStreamByByteArr.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/CopyFileInputStreamByByteArr.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/day20笔记.md" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/BufferedOutputStreamLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/BufferedInputStreamLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/CopyBigFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/StringCoding.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/InputStreamWriterLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/OutputStreamWriterLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/InputStreamReaderLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/OutputStreamWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/OutputStreamWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/InputStreamReaderDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/ChangeIoCopyDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/CopyFileReaderDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/day21笔记.md" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedWriterLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedReaderLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedCopyFile.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyTextFive.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CpoyNotTextFour.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CollectionSaveToFile.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/name.txt" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/FileSaveToCollection.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/GetName.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyFolder.java" />
       </list>
     </option>
   </component>
@@ -205,12 +264,28 @@
     <option name="width" value="1413" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +317,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +325,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day19" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+              <item name="IOLearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
@@ -258,22 +334,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day19" type="462c0819:PsiDirectoryNode" />
-              <item name="ExceptionLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+              <item name="IOLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="DemoFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eclipseworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="put&#9;PSI&#9;JAVA://com.sun.corba.se.impl.orbutil.CacheTable#put" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605541821328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606752307977" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -282,6 +366,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -303,13 +388,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ManyExceptionLearn">
-    <configuration name="CollectionsLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day18.CollectionsLearn.CollectionsLearn" />
+  <component name="RunManager" selected="Application.CopyFolder">
+    <configuration name="CollectionSaveToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day21.IOTest.CollectionSaveToFile" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day18.CollectionsLearn.*" />
+          <option name="PATTERN" value="cn.itcast.code.day21.IOTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompileExceptionLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day19.ExceptionLearn.CompileExceptionLearn" />
+    <configuration name="CopyFolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day21.IOTest.CopyFolder" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day19.ExceptionLearn.*" />
+          <option name="PATTERN" value="cn.itcast.code.day21.IOTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,12 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day19.ExceptionLearn.ExceptionLearn" />
+    <configuration name="CpoyNotTextFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day21.IOTest.CpoyNotTextFour" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day19.ExceptionLearn.*" />
+          <option name="PATTERN" value="cn.itcast.code.day21.IOTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,12 +428,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapNested" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day18.MapPractise.HashMapNested" />
+    <configuration name="FileSaveToCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day21.IOTest.FileSaveToCollection" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day18.MapPractise.*" />
+          <option name="PATTERN" value="cn.itcast.code.day21.IOTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,12 +441,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyExceptionLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day19.ExceptionLearn.ManyExceptionLearn" />
+    <configuration name="GetName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day21.IOTest.GetName" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day19.ExceptionLearn.*" />
+          <option name="PATTERN" value="cn.itcast.code.day21.IOTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,19 +455,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashMapNested" />
-      <item itemvalue="Application.CollectionsLearn" />
-      <item itemvalue="Application.ExceptionLearn" />
-      <item itemvalue="Application.ManyExceptionLearn" />
-      <item itemvalue="Application.CompileExceptionLearn" />
+      <item itemvalue="Application.CpoyNotTextFour" />
+      <item itemvalue="Application.CollectionSaveToFile" />
+      <item itemvalue="Application.FileSaveToCollection" />
+      <item itemvalue="Application.GetName" />
+      <item itemvalue="Application.CopyFolder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ManyExceptionLearn" />
-        <item itemvalue="Application.CompileExceptionLearn" />
-        <item itemvalue="Application.ExceptionLearn" />
-        <item itemvalue="Application.CollectionsLearn" />
-        <item itemvalue="Application.HashMapNested" />
+        <item itemvalue="Application.CopyFolder" />
+        <item itemvalue="Application.GetName" />
+        <item itemvalue="Application.FileSaveToCollection" />
+        <item itemvalue="Application.CollectionSaveToFile" />
+        <item itemvalue="Application.CpoyNotTextFour" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +536,18 @@
       <workItem from="1605276741729" duration="4370000" />
       <workItem from="1605359664951" duration="4291000" />
       <workItem from="1605416001240" duration="7170000" />
-      <workItem from="1605537413026" duration="4467000" />
+      <workItem from="1605537413026" duration="4494000" />
+      <workItem from="1605623654545" duration="5816000" />
+      <workItem from="1605710834941" duration="2617000" />
+      <workItem from="1605797128122" duration="599000" />
+      <workItem from="1605963925731" duration="7859000" />
+      <workItem from="1606029913870" duration="1678000" />
+      <workItem from="1606142004277" duration="4551000" />
+      <workItem from="1606224910558" duration="6044000" />
+      <workItem from="1606485777623" duration="599000" />
+      <workItem from="1606577142644" duration="1536000" />
+      <workItem from="1606620588725" duration="19108000" />
+      <workItem from="1606743408406" duration="8835000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1597422568641</created>
@@ -761,29 +857,65 @@
       <option name="project" value="LOCAL" />
       <updated>1605369519939</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="COde Block">
+      <created>1605541907777</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1605541907778</updated>
+    </task>
+    <task id="LOCAL-00046" summary="COde Block">
+      <created>1605629706122</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1605629706122</updated>
+    </task>
+    <task id="LOCAL-00047" summary="COde Block">
+      <created>1605976572591</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1605976572591</updated>
+    </task>
+    <task id="LOCAL-00048" summary="OutputStream">
+      <created>1606232345058</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1606232345058</updated>
+    </task>
+    <task id="LOCAL-00049" summary="OutputStream">
+      <created>1606666986412</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1606666986412</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265604000" />
+    <option name="totallyTimeSpent" value="324873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="234" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5016026" side_tool="true" weight="0.18763326" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49839744" visible="true" weight="0.19616205" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49839744" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="6" sideWeight="0.5003873" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32867885" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32975295" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.41460794" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39957035" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32867885" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -791,7 +923,7 @@
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -824,10 +956,11 @@
     <MESSAGE value="List" />
     <MESSAGE value="for enhance" />
     <MESSAGE value="Set" />
-    <MESSAGE value="COde Block" />
     <MESSAGE value="Map" />
     <MESSAGE value="HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap" />
+    <MESSAGE value="COde Block" />
+    <MESSAGE value="OutputStream" />
+    <option name="LAST_COMMIT_MESSAGE" value="OutputStream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,388 +973,369 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/code/day19/FileLearn/FileDemo2.java</url>
+          <line>29</line>
+          <properties class="cn.itcast.code.day19.FileLearn.FileDemo2" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day14/day14笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="474">
-            <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/CollectLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/RecurrenceLearn/RecurrenceDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="30" selection-start-line="27" selection-start-column="6" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="612">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/IteratorLearn.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="-799">
+          <caret line="205" column="15" selection-start-line="205" selection-start-column="15" selection-end-line="205" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/day15笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="459">
-            <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/ListLearn/ListConcurrentModificationException.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileOutputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/ListLearn/ListLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="64" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/ArrayListLearn/ArrayListTestObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/ArrayListLearn/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/LinkedListLearn/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/VectorLearn/VectorLearn.java">
+    <entry file="file://$PROJECT_DIR$/des.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/LinkedListLearn/LinkedListLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericFunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/LinkedListLearn/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericInterfaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericInterfaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/OutputStreamLearn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/CopyFileLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/GenericLearn/GenericAdvanced.java">
+    <entry file="file://$PROJECT_DIR$/des2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileInputStreamByByteArr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/day16.md">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/FileInputStreamLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/day20笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="744">
-            <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+          <first_editor relative-caret-position="594">
+            <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/StaticImportLearn/StaticImportLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/EnhanceForLearn/EnhanceForLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/CollectiomErgodic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="57" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/ArrayListLearn/ArrayListLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/BufferedOutputStreamLearn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="57" />
+          <caret line="11" column="119" selection-start-line="11" selection-start-column="119" selection-end-line="11" selection-end-column="119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day16/ArgsLearn/ArgsLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/BufferedInputStreamLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/TreeSetLearn/MyComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/CopyFileInputStreamByByteArr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/TreeSetLearn/StudensCoparable.java">
+    <entry file="file://$PROJECT_DIR$/copy1.srt" />
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day20/IOLearn/CopyBigFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/TreeSetLearn/TreeSetLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/text/day21总结.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="20" />
+        <state relative-caret-position="1584">
+          <caret line="934" column="35" lean-forward="true" selection-start-line="934" selection-start-column="35" selection-end-line="934" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/day17.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="748">
-            <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/HashMapLearn/HashMapLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/OutputStreamWriter2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state>
+          <caret column="21" selection-start-column="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/MapLearn/MapLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7718">
-          <caret line="491" column="7" selection-start-line="491" selection-start-column="7" selection-end-line="491" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/com/sun/corba/se/impl/orbutil/CacheTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/SetLearn/SetLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/OutputStreamWriterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/HashSetLearn/LinkedHashSetLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/OutputStreamWriterLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day17/HashSetLearn/HashSetLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/InputStreamReaderLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/TreeMapLearn/TreeMapDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/StringCoding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="119">
+          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/HashMapPractise.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/OutputStreamWriter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/InputStreamReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/花束.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/ChangeIoCopyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="16" column="102" lean-forward="true" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/demo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/demo2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/CopyFileReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedWriterLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/bw.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedReaderLearn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/HashMapArrayListPratise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/ArrayListHashMapPratise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/MapPractise/HashMapNested.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/TreeMapLearn/TreeMapLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="42" column="57" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="42" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day15/CollectLearn/StudentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/CollectionsLearn/CollectionsLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day18/day18笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="139" column="37" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ExceptionLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/day19笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="471">
-            <caret line="90" column="66" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/CompileExceptionLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day19/ExceptionLearn/ManyExceptionLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/bw2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        <state relative-caret-position="172">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/BufferedCopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/line.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/des.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/copy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CpoyNotTextFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyTextFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/day21笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="354">
+            <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/array.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/FileSaveToCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="143" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="143" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOLearn/DemoFile/name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="391" column="42" selection-start-line="391" selection-start-column="42" selection-end-line="391" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CollectionSaveToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/GetName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day21/IOTest/CopyFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1289,6 +1403,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
