@@ -39,7 +39,7 @@ public class CopyFolder {
 
     }
 
-    private static void copyFileMethod(File file, File newFile) throws IOException {
+    public  static void copyFileMethod(File file, File newFile) throws IOException {
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(newFile));
 
