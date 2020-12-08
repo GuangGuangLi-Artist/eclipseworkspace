@@ -51,3 +51,7 @@
     BufferedReader:
     		public String readLine()：一次读取一行数据
     		包含该行内容的字符串，不包含任何行终止符，如果已到达流末尾，则返回 null
+    		
+    LineNumberReader
+        public void setLineNumber(int lineNumber) 设置当前行号。
+        public int getLineNumber() 获得当前行号。 
