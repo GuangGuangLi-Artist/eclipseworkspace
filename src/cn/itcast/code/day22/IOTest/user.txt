@@ -1,0 +1,6 @@
+#new File
+#Fri Dec 11 00:33:37 CST 2020
+liguang=25
+chengcheng=35
+subiao=30
+lisi=100

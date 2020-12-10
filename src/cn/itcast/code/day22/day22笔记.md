@@ -77,3 +77,14 @@
             			int x = sc.nextInt()
             		C:通过字符缓冲流包装标准输入流实现
             			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            
+            随机访问流：
+            		RandomAccessFile类不属于流，是Object类的子类。
+            		但它融合了InputStream和OutputStream的功能。
+            		支持对文件的随机访问读取和写入。
+            
+            public RandomAccessFile(String name,String mode)：第一个参数是文件路径，第二个参数是操作文件的模式。
+            		模式有四种，我们最常用的一种叫"rw",这种方式表示我既可以写数据，也可以读取数据 
+            
+            序列化流：把对象按照流一样的方式存入文本文件或者在网络中传输。对象 -- 流数据(ObjectOutputStream)
+            反序列化流:把文本文件中的流对象数据或者网络中的流对象数据还原成对象。流数据 -- 对象(ObjectInputStream)

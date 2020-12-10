@@ -1,4 +1,4 @@
-package cn.itcast.code.day22;
+package cn.itcast.code.day22.IOLearn;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
