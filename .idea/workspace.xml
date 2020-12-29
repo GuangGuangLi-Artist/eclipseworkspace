@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fad0b04-5cf7-4cb3-8e44-9d38032ae98a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/ChatRoom/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/ChatRoom/ReceiveThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/ChatRoom/SendThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ClientDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/FileTest/bos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UpFileClientServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UpFileThreadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UserThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/UpFigureClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/UpFigureServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/UploadClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/UploadServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/UDPLearn/InetAddressLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/UDPLearn/ReceiveLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/UDPLearn/SendLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/day27笔记.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/itcast/code/day25/day25笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/day25笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +14,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaReview$All_Features_in__ReflectLearn.ic" NAME="All Features in: ReflectLearn Coverage Results" MODIFIED="1609254023809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -50,7 +45,7 @@
     <session id="1474917254">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="84" />
+          <entry key="project.closed" value="85" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="13" />
           <entry key="project.open.time.11" value="6" />
@@ -62,19 +57,19 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="17" />
-          <entry key="project.open.time.9" value="33" />
-          <entry key="project.opened" value="87" />
+          <entry key="project.open.time.9" value="34" />
+          <entry key="project.opened" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="b,txt" value="1" />
-          <entry key="class" value="3" />
+          <entry key="class" value="4" />
           <entry key="html" value="2" />
-          <entry key="java" value="380" />
+          <entry key="java" value="384" />
           <entry key="jmx" value="1" />
           <entry key="jpg" value="7" />
-          <entry key="md" value="48" />
+          <entry key="md" value="49" />
           <entry key="srt" value="1" />
           <entry key="txt" value="94" />
           <entry key="txx" value="1" />
@@ -83,27 +78,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="4" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="7" />
-          <entry key="JAVA" value="380" />
-          <entry key="Markdown" value="48" />
+          <entry key="JAVA" value="384" />
+          <entry key="Markdown" value="49" />
           <entry key="PLAIN_TEXT" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="53358" />
-          <entry key="md" value="9315" />
+          <entry key="java" value="54273" />
+          <entry key="md" value="9363" />
           <entry key="txt" value="172" />
           <entry key="笔记,md" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="53359" />
-          <entry key="Markdown" value="9314" />
+          <entry key="JAVA" value="54274" />
+          <entry key="Markdown" value="9362" />
           <entry key="PLAIN_TEXT" value="241" />
         </counts>
       </usages-collector>
@@ -115,62 +110,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day25/day25笔记.md">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/day27笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <first_editor relative-caret-position="357">
+                <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UserThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UpFileThreadServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UpFileClientServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ClientDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,9 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/ThreadtDaemonLearn.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/ThreadtDaemonTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/ThreadStop.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/ThreadStopLearn.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/ThreadStopTest.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/RunableLearn.java" />
@@ -249,6 +224,9 @@
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UserThread.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UpFileThreadServer.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/ThreadTcp/UpFileClientServer.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day27/day27笔记.md" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java" />
       </list>
     </option>
   </component>
@@ -290,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,7 +300,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day25" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
@@ -329,56 +308,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day25" type="462c0819:PsiDirectoryNode" />
-              <item name="NetLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ReflectLearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eclipseworkspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day25" type="462c0819:PsiDirectoryNode" />
-              <item name="NetLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="TCPLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eclipseworkspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day25" type="462c0819:PsiDirectoryNode" />
-              <item name="NetLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="TCPLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eclipseworkspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day25" type="462c0819:PsiDirectoryNode" />
-              <item name="NetLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="TCPLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTcp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eclipseworkspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="day25" type="462c0819:PsiDirectoryNode" />
-              <item name="NetLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="UDPLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -387,7 +327,7 @@
     <property name="SearchEverywhereHistoryKey" value="put&#9;PSI&#9;JAVA://com.sun.corba.se.impl.orbutil.CacheTable#put" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609065669146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609259234197" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -420,13 +360,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UpFigureClient">
-    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day25.NetLearn.TCPLearn.ClientDemo" />
+  <component name="RunManager" selected="Application.ReflectLearn">
+    <configuration name="ReflectLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day27.ReflectLearn.ReflectLearn" />
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day25.NetLearn.TCPLearn.*" />
+          <option name="PATTERN" value="cn.itcast.code.day27.ReflectLearn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,12 +413,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.code.day25.NetLearn.TCPLearn.UploadServer" />
+    <configuration name="All Features in: ReflectLearn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="JavaReview" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: ReflectLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.code.day25.NetLearn.TCPLearn.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,19 +431,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientDemo" />
-      <item itemvalue="Application.UploadServer" />
       <item itemvalue="Application.UploadClient" />
       <item itemvalue="Application.UpFigureServer" />
       <item itemvalue="Application.UpFigureClient" />
+      <item itemvalue="Cucumber java.All Features in: ReflectLearn" />
+      <item itemvalue="Application.ReflectLearn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectLearn" />
+        <item itemvalue="Cucumber java.All Features in: ReflectLearn" />
         <item itemvalue="Application.UpFigureClient" />
         <item itemvalue="Application.UpFigureServer" />
         <item itemvalue="Application.UploadClient" />
-        <item itemvalue="Application.UploadServer" />
-        <item itemvalue="Application.ClientDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -599,14 +543,8 @@
       <workItem from="1608652015861" duration="2776000" />
       <workItem from="1608821524944" duration="1633000" />
       <workItem from="1608958434370" duration="8735000" />
-      <workItem from="1609048033852" duration="8006000" />
-    </task>
-    <task id="LOCAL-00009" summary="array">
-      <created>1600011397973</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1600011397973</updated>
+      <workItem from="1609048033852" duration="10030000" />
+      <workItem from="1609250356273" duration="4964000" />
     </task>
     <task id="LOCAL-00010" summary="array">
       <created>1600097593792</created>
@@ -944,11 +882,23 @@
       <option name="project" value="LOCAL" />
       <updated>1608654757527</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="ThreadLearn">
+      <created>1609083322594</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1609083322595</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__ReflectLearn - 2020.12.29 at 23h 00m 31s.xml">
+      <configuration name="All Features in: ReflectLearn" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410252000" />
+    <option name="totallyTimeSpent" value="417240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="234" width="1936" height="1066" extended-state="6" />
@@ -959,7 +909,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5016026" side_tool="true" weight="0.18763326" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49839744" visible="true" weight="0.27025586" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49839744" visible="true" weight="0.27292112" />
       <window_info id="Structure" order="6" sideWeight="0.5003873" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32867885" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32975295" />
@@ -967,12 +917,13 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32975295" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.41460794" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.41460794" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39957035" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32867885" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
@@ -1042,51 +993,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/ThreadStopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/RunnableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/day23笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3145">
-            <caret line="185" column="33" selection-start-line="185" selection-start-column="33" selection-end-line="185" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/SynchronizedLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/SynchronizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/ThreadLearn/RunnableLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day23/Test/SellTickets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1265,9 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,9 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,9 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1302,9 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,10 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1323,9 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="60" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,9 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,9 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,9 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,9 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1390,9 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,9 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,11 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,9 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,6 +1303,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/com/oracle/util/Checksums.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/StringJoiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1357">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8447">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/day27笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
