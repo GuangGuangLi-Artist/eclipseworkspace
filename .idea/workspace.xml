@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3fad0b04-5cf7-4cb3-8e44-9d38032ae98a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day25/NetLearn/TCPLearn/FileTest/bos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/day27笔记.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,9 +44,9 @@
     <session id="1474917254">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="85" />
+          <entry key="project.closed" value="86" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="13" />
+          <entry key="project.open.time.10" value="14" />
           <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -58,7 +57,7 @@
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="34" />
-          <entry key="project.opened" value="88" />
+          <entry key="project.opened" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -89,7 +88,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="54273" />
+          <entry key="java" value="54707" />
           <entry key="md" value="9363" />
           <entry key="txt" value="172" />
           <entry key="笔记,md" value="27" />
@@ -97,7 +96,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="54274" />
+          <entry key="JAVA" value="54708" />
           <entry key="Markdown" value="9362" />
           <entry key="PLAIN_TEXT" value="241" />
         </counts>
@@ -124,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="308">
+              <caret line="137" column="38" lean-forward="true" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,20 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-              <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -268,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,6 +306,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +314,7 @@
     <property name="SearchEverywhereHistoryKey" value="put&#9;PSI&#9;JAVA://com.sun.corba.se.impl.orbutil.CacheTable#put" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609259234197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609344378940" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -544,14 +531,8 @@
       <workItem from="1608821524944" duration="1633000" />
       <workItem from="1608958434370" duration="8735000" />
       <workItem from="1609048033852" duration="10030000" />
-      <workItem from="1609250356273" duration="4964000" />
-    </task>
-    <task id="LOCAL-00010" summary="array">
-      <created>1600097593792</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1600097593792</updated>
+      <workItem from="1609250356273" duration="5116000" />
+      <workItem from="1609336668130" duration="2039000" />
     </task>
     <task id="LOCAL-00011" summary="COde Block">
       <created>1600270891687</created>
@@ -889,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609083322595</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="ThreadLearn">
+      <created>1609259290796</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1609259290796</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -898,7 +886,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417240000" />
+    <option name="totallyTimeSpent" value="419431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="234" width="1936" height="1066" extended-state="6" />
@@ -909,7 +897,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5016026" side_tool="true" weight="0.18763326" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49839744" visible="true" weight="0.27292112" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49839744" visible="true" weight="0.2761194" />
       <window_info id="Structure" order="6" sideWeight="0.5003873" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32867885" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32975295" />
@@ -923,7 +911,6 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
@@ -933,6 +920,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1339,27 +1327,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/PersonLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/itcast/code/day27/ReflectLearn/ReflectLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="308">
+          <caret line="137" column="38" lean-forward="true" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

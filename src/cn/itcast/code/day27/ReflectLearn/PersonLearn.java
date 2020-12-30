@@ -5,8 +5,6 @@ public class PersonLearn {
 
     private String name;
     int age;
-
-
     public String gender;
 
 

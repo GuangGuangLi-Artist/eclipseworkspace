@@ -24,10 +24,11 @@ package cn.itcast.code.day27.ReflectLearn;
  */
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 
 public class ReflectLearn {
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchFieldException {
 
 
         //方式一
@@ -106,6 +107,43 @@ public class ReflectLearn {
         cPrivate.setAccessible(true);//值为true则指示反射的对象在使用时应该取消Java语言访问检查。
         Object onPrivate = cPrivate.newInstance("subiao");//IllegalAccessException:
         System.out.println(onPrivate);
+
+
+        System.out.println("通过反射获取成员变量并使用");
+
+        //第一步 获取字节码码对象
+
+        //第二步  获取所有的成员变量
+        //Field[] fields = c5.getFields();
+        Field[] fields = c5.getDeclaredFields();
+
+        for(Field fi:fields){
+            System.out.println("    " + fi);
+        }
+
+        System.out.println("-----");
+        //第三步，通过无参构造方法创建对象
+        Constructor con1 = c5.getConstructor();
+        Object obje = con1.newInstance();
+        System.out.println(obje);
+
+        //获取单个的成员变量
+        Field genderField = c5.getField("gender");
+        genderField.set(obje,"西安");
+        System.out.println(obje);
+
+        //获取私有修饰的name
+        Field nameField = c5.getDeclaredField("name");
+        //需要暴力访问
+        nameField.setAccessible(true);
+        nameField.set(obje,"大笔");
+        System.out.println(obje);
+
+        //获取默认修饰的age
+        Field ageField = c5.getDeclaredField("age");
+        ageField.set(obje,20);
+        System.out.println(obje);
+
 
 
 
