@@ -26,6 +26,7 @@ package cn.itcast.code.day27.ReflectLearn;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class ReflectLearn {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchFieldException {
@@ -143,6 +144,49 @@ public class ReflectLearn {
         Field ageField = c5.getDeclaredField("age");
         ageField.set(obje,20);
         System.out.println(obje);
+
+
+        System.out.println("    " + "通过反射获取无参无返回值成员方法");
+        //第一步，获取字节码文件对象
+        //第二步，获取所有方法
+        //Method[] me = c5.getDeclaredMethods();//获取自己的所有方法
+       /* Method[] me = c5.getMethods();//获取自己包括父亲的公共方法
+        for(Method m:me){
+            System.out.println(m);
+        }*/
+
+
+       //第三步，获取私有构造对象创建方法并创建对象
+        //Constructor con1 = c5.getConstructor();
+        //Object obje = con1.newInstance();
+
+        //第四步，获取单个方法并使用
+        //public Method getMethod(String name,Class<?>... parameterTypes)throws NoSuchMethodException,SecurityException
+        //返回一个 Method 对象，它反映此 Class 对象所表示的类或接口的指定公共成员方法。
+        //name - 方法名
+        //parameterTypes - 参数列表
+
+        Method m = c5.getMethod("show");
+
+        //public Object invoke(Object obj, Object... args)throws IllegalAccessException,IllegalArgumentException,InvocationTargetException
+        m.invoke(obje);//调用obje对象的m1方法
+
+        //带参无返回值
+        Method mHaveParam = c5.getMethod("method", String.class);
+        mHaveParam.invoke(obje,"hello");
+
+        //带参有返回值
+        Method mHavParamAndReturn = c5.getMethod("getString", String.class, int.class);
+        Object obgmethod = mHavParamAndReturn.invoke(obje,"world",1000);
+        System.out.println(obgmethod);
+
+
+        //私有方法
+        Method mprivate =c5.getDeclaredMethod("function");
+        mprivate.setAccessible(true);
+        mprivate.invoke(obje);
+
+
 
 
 
