@@ -31,5 +31,23 @@ public class ArrayTest1 {
         //NullPointerException
         //System.out.println(arr_2[0]);
 
+        System.out.println("-----");
+
+        byte b = 127;
+
+        shuChuTest();
+
+
+    }
+
+    public static void shuChuTest(){
+        System.out.println('a');  //char
+        System.out.println('a'+1);  //98  转化为int
+
+        System.out.println("hello"+'a'+1); //任何数据和字符串进行操作，结果都是字符串类型
+        System.out.println('a'+1+"hello");//先转化为int  最后是字符串类型
+        System.out.println("5+5="+5+5);//5+5=55
+        System.out.println(5+5+"=5+5");//10=5+5
+
     }
 }
