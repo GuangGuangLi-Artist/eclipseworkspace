@@ -57,9 +57,15 @@ public class ArrayTestOpe {
     }
 
     public static void getReverse(int [] arr){
-       /* int temp = arr[0];
+       /*
+       思路：
+       1：把0索引和arr.length-1进行位置调换
+       2：把1索引和arr.length-2进行位置调换...
+       3:只需要做到arr.length / 2 时即可
+       int temp = arr[0];
         arr[0] = arr[arr.length-1];
         arr[arr.length-1] =temp;*/
+
 
         for (int x=0; x<arr.length/2;x++){
             int temp = arr[x];
