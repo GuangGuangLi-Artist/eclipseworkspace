@@ -1,8 +1,16 @@
 package cn.itcast.code.day08;
 
+/**
+ * 1:继承不能继承私有的成员变量和成员方法
+ * 2：子类不能继承父类的构造方法
+ */
+
 public class ExecuteDemo {
 
     public static void main(String[] args) {
+        Zi zi = new Zi();
+        zi.show();
+        System.out.println(zi.num2);
 
     }
 }
