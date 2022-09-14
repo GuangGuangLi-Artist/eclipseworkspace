@@ -2,7 +2,7 @@
 
 ###object类的方法：
     public int hashCode()：返回该对象的哈希码值
-    注意：哈希值是更具哈希算法计算出来的一个值，这个值金额地址值相关，但是不是实际地址值，你可以理解为地址值
+    注意：哈希值是根据哈希算法计算出来的一个值，这个值和地址值相关，但是不是实际地址值，你可以理解为地址值
     public final Class getClass():返回此 Object 的运行时类
         Class类的方法：
             public String getName()：以 String 的形式返回此 Class 对象所表示的实体（类、接口、数组类、基本类型或 void）名称。
