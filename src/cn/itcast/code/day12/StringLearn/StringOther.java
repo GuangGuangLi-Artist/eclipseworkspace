@@ -18,7 +18,7 @@ public class StringOther {
         System.out.println(ss);
         System.out.println("---------");
 
-        String sss = s.replace("owo","ak47");
+        String sss = s.replace("wo","ak47");
         System.out.println(sss);
         System.out.println("---------");
 
@@ -27,7 +27,7 @@ public class StringOther {
         System.out.println("---------");
 
         String s3 = "hello";
-        String s4 = "hello";
+        String s4 = "holle";
         String s5 = "Hello";
         System.out.println(s3.compareTo(s4));
         System.out.println(s3.compareToIgnoreCase(s5));

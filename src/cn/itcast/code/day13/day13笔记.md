@@ -31,7 +31,7 @@
             String是可变的 StringBuffer StringBuilder是不可变的
             StringBuffer是同步的，数据安全，效率低 StringBuilder是不同步的，数据不安全，效率高
         StringBuffer 和 数组 的区别
-            二者都可以看成是容器，装其他的数据，StringBuffer的数据最终是一个字符串数据，而数组可以防止多种数据，但必须是同一种数据类型的
+            二者都可以看成是容器，装其他的数据，StringBuffer的数据最终是一个字符串数据，而数组可以放置多种数据，但必须是同一种数据类型的
         形式参数问题
         String：
         StringBuffer
@@ -104,6 +104,10 @@
         注意：这个字符串必须由数字组成
     int类型和String类型的相互转换
         int – String
+        A:String -- int
+            Integer.parseInt("100");
+        B:int -- String
+        	String.valueOf(100);
  ```java
  //方法一
          String s1 = "" + num;
