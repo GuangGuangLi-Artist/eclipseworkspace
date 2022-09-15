@@ -1,7 +1,7 @@
 package cn.itcast.code.day13.StringBufferLearn;
 /*
     构造方法
-        public StringBuffer() ：无参构造方法
+        public StringBuffer():无参构造方法
         public StringBuffer(int capacity):指定容量的字符串缓冲区对象
         public StringBuffer(String str)：指定字符串内容的字符串缓冲区对象
     成员方法
