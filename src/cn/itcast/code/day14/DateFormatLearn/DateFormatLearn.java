@@ -38,7 +38,7 @@ public class DateFormatLearn {
         String sss = "2020-10-24 23-39-34";
         SimpleDateFormat sf_2 = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
         Date dd = sf_2.parse(sss);
-        System.out.println();
+        System.out.println(dd);
 
 
     }

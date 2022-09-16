@@ -34,6 +34,8 @@ public class HowManyDay {
         //F把E的值转化为年  1000/60/60/24
 
         long day = res / 1000 / 60 / 60 / 24;
+        //你来到这个世界10985天
+        //你来到这个世界9510天
         System.out.println("你来到这个世界" + day + "天");
     }
 }

@@ -16,7 +16,7 @@ public class GenericInterfaceImpl implements GenericInterface<String> {
 public class GenericInterfaceImpl<T> implements GenericInterface<T> {
     @Override
     public void show(T t) {
-
+        System.out.println(t);
     }
 }
 

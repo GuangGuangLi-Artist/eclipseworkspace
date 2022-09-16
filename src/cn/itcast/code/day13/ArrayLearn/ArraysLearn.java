@@ -14,7 +14,7 @@ public class ArraysLearn {
         System.out.println("排序前： "  + Arrays.toString(arr));
         Arrays.sort(arr);
         System.out.println("排序后： " + Arrays.toString(arr));
-
+    //二分查找的前提是要对数组进行排序
         System.out.println("binarySearch: " + Arrays.binarySearch(arr,80));
         System.out.println("binarySearch: " + Arrays.binarySearch(arr,577));
     }
