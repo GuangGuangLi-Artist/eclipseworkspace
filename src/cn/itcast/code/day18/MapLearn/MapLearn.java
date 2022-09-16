@@ -86,6 +86,7 @@ public class MapLearn {
         //V get(Object key):根据键获取值
 
         System.out.println("get:" + m.get("邓超"));
+        System.out.println("get:" + m.get("文章"));
         System.out.println("--------");
 
         //Set<K> keySet():获取集合中所有键的集合
