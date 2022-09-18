@@ -26,7 +26,7 @@ public class RecurrenceDemo1 {
     }
 
     private static void getallJavaFilePath(File srcFolder) {
-
+        //获取目录下的所有目录的数组
         File[] fileArr = srcFolder.listFiles();
 
         for(File file: fileArr){
