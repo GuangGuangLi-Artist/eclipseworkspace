@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class FileInputStreamLearn {
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("E:\\eclipseworkspace\\fos.txt");
+        FileInputStream fis = new FileInputStream("F:\\ideaWorkspace\\eclipseworkspace\\fos.txt");
 
         /*int bys = fis.read();
         while(bys!=-1){
