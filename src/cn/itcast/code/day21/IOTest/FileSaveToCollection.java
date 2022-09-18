@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class FileSaveToCollection {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\name.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\name.txt"));
         ArrayList<String> arr = new ArrayList<String>();
 
         String line = null;

@@ -25,10 +25,10 @@ import static cn.itcast.code.day21.IOTest.CopyFolder.copyFileMethod;
 public class CopyAndRename {
     public static void main(String[] args) throws IOException {
         //封装数据源
-        File srcFolder = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\SrcFolder");
+        File srcFolder = new File("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\SrcFolder");
 
         //封装目的地
-        File descFolder = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\RenameFolder");
+        File descFolder = new File("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\RenameFolder");
 
         //如果目的地不存在就创建
         if(!(descFolder.exists())){
