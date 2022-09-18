@@ -21,7 +21,7 @@ import java.io.OutputStreamWriter;
 
 public class OutputStreamWriterDemo {
     public static void main(String[] args) throws IOException {
-        OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\OutputStreamWriter2.txt"));
+        OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\OutputStreamWriter2.txt"));
 
         //public void write(int c):写一个字符
         osw.write('a');

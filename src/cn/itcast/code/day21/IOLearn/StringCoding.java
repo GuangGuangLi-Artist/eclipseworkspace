@@ -19,6 +19,16 @@ public class StringCoding {
         System.out.println(ss);
 
 
+        System.out.println("==========");
+        String ssgbk = new String(byGbk,"GBK");
+        System.out.println(ssgbk);
+
+
+        System.out.println("==========乱码");
+        String ssgbkutf8 = new String(byGbk,"UTF-8");
+        System.out.println(ssgbkutf8);
+
+
 
 
     }

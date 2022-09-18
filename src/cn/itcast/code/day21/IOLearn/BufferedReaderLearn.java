@@ -8,7 +8,7 @@ public class BufferedReaderLearn {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw.txt"));
 
         int ch = 0;
         while ((ch = br.read()) != -1){

@@ -16,11 +16,14 @@ public class BufferedWriterLearn {
     public static void main(String[] args) throws IOException {
 
         BufferedWriter bw;
-        bw = new BufferedWriter(new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw.txt"));
+        bw = new BufferedWriter(new FileWriter("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw.txt"));
 
         bw.write("hwllo");
+        bw.newLine();
         bw.write("world");
+        bw.newLine();
         bw.write("java");
+        bw.newLine();
         bw.write("啊啊啊");
         bw.close();
 

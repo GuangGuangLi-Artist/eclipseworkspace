@@ -13,7 +13,7 @@ import java.io.OutputStreamWriter;
 public class OutputStreamWriterLearn {
     public static void main(String[] args) throws IOException {
         OutputStreamWriter osw;
-        osw = new OutputStreamWriter(new FileOutputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\OutputStreamWriter.txt"),"UTF-8");
+        osw = new OutputStreamWriter(new FileOutputStream("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\OutputStreamWriter.txt"),"UTF-8");
 
         osw.write("中国");
 
