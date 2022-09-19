@@ -8,11 +8,11 @@ import java.io.*;
 public class SequenceInputStreamLearn {
 
     public static void main(String[] args) throws IOException {
-        InputStream s1 = new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\a.txt");
-        InputStream s2 = new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\b.txt");
+        InputStream s1 = new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\a.txt");
+        InputStream s2 = new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\b.txt");
 
         SequenceInputStream sis = new SequenceInputStream(s1,s2);
-        BufferedOutputStream bow = new BufferedOutputStream(new FileOutputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\c.txt"));
+        BufferedOutputStream bow = new BufferedOutputStream(new FileOutputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\c.txt"));
 
         byte[] bys = new byte[1024];
         int len = 0;
@@ -20,7 +20,7 @@ public class SequenceInputStreamLearn {
             bow.write(bys,0,len);
         }
 
-        bow.close();;
+        bow.close();
         sis.close();
 
     }

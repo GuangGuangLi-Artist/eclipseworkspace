@@ -19,7 +19,7 @@ public class PropertiesTest {
 
         //A:把文件中的数据加载到集合中
         Properties pp = new Properties();
-        Reader r = new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\user.txt");
+        Reader r = new FileReader("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\user.txt");
         pp.load(r);
 
         r.close();
@@ -35,7 +35,7 @@ public class PropertiesTest {
         }
 
         //把集合中的数据重新存储到文件中
-        Writer w = new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\user.txt");
+        Writer w = new FileWriter("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\user.txt");
         pp.store(w,"new File");
         w.close();
 

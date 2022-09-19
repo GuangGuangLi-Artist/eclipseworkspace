@@ -17,13 +17,13 @@ public class RandomAccessFileLearn {
     public static void main(String[] args) throws IOException {
 
 
-        //randomAccessFilewrite();
+        randomAccessFilewrite();
         randomAccessFileread();
     }
 
     private static void randomAccessFilewrite() throws IOException {
 
-        RandomAccessFile raf = new RandomAccessFile("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\raf.txt","rw");
+        RandomAccessFile raf = new RandomAccessFile("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\raf.txt","rw");
 
         raf.writeInt(1000);
         raf.writeChar('a');
@@ -32,7 +32,7 @@ public class RandomAccessFileLearn {
     }
 
     private static void randomAccessFileread() throws IOException {
-        RandomAccessFile raf = new RandomAccessFile("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\raf.txt","rw");
+        RandomAccessFile raf = new RandomAccessFile("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\raf.txt","rw");
 
         int i = raf.readInt();
         System.out.println(i);

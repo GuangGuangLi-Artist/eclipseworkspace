@@ -20,7 +20,7 @@ public class ObjectStreamLearn {
     private static void objectWrite() throws IOException {
 
         //创建序列化流对象
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\oos.txt"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\oos.txt"));
 
         //创建对象
         Person p = new Person(27,"林青霞");
@@ -35,7 +35,7 @@ public class ObjectStreamLearn {
 
     private static void objectRead() throws IOException, ClassNotFoundException {
 
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\oos.txt"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\oos.txt"));
 
         Object obj = ois.readObject();
 

@@ -12,7 +12,7 @@ public class DataStreamDemo {
     }
 
     private static void dataWriteMethod() throws IOException {
-        DataOutputStream dos = new DataOutputStream(new FileOutputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\dos.txt"));
+        DataOutputStream dos = new DataOutputStream(new FileOutputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\dos.txt"));
         dos.write(100);
         byte[] bys = {'a','b'};
         dos.write(bys);
@@ -28,12 +28,12 @@ public class DataStreamDemo {
     }
 
     private static void dataReadMethod() throws IOException {
-        DataInputStream dis = new DataInputStream(new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\dos.txt"));
+        DataInputStream dis = new DataInputStream(new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\dos.txt"));
 
         byte[] bys = new byte[1024];
         int len = 0;
         while ((len= dis.read(bys)) != -1){
-            System.out.println(bys);
+            System.out.println(new String(bys));
         }
     }
 }

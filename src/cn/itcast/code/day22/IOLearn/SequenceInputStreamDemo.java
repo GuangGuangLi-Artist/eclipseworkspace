@@ -14,9 +14,9 @@ public class SequenceInputStreamDemo {
 
 
         Vector<InputStream> v = new Vector<>();
-        InputStream s1 = new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\a.txt");
-        InputStream s2 = new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\b.txt");
-        InputStream s3 = new FileInputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\c.txt");
+        InputStream s1 = new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\a.txt");
+        InputStream s2 = new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\b.txt");
+        InputStream s3 = new FileInputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\c.txt");
 
         v.add(s1);
         v.add(s2);
@@ -25,7 +25,7 @@ public class SequenceInputStreamDemo {
         Enumeration<InputStream> en = v.elements();
         SequenceInputStream sis = new SequenceInputStream(en);
 
-        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\d.txt"));
+        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\d.txt"));
 
         byte[] bys = new byte[1024];
         int len = 0;
@@ -33,7 +33,7 @@ public class SequenceInputStreamDemo {
             bos.write(bys,0,len);
         }
 
-        bos.close();;
+        bos.close();
         sis.close();
     }
 }

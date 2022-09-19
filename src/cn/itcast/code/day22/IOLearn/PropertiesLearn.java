@@ -77,7 +77,7 @@ public class PropertiesLearn {
         pp.setProperty("胡锡进","20");
 
         //创建writer对象
-        Writer wr = new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\write.txt");
+        Writer wr = new FileWriter("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\write.txt");
         pp.store(wr,null);
         wr.close();
 
@@ -87,7 +87,7 @@ public class PropertiesLearn {
 
     private static void myLoad() throws IOException {
         //读取文件中Map类型的数据
-        Reader r = new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\read.txt");
+        Reader r = new FileReader("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\read.txt");
 
         //创建Properties对象
         Properties pp = new Properties();

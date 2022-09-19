@@ -10,7 +10,7 @@ public class PrintWriterLearn {
     public static void main(String[] args) throws IOException {
 
         //PrintWriter pw = new PrintWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\pw.txt");
-        PrintWriter pw = new PrintWriter(new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\pw.txt"),true);
+        PrintWriter pw = new PrintWriter(new FileWriter("D:\\javaproject\\eclipseworkspace\\src\\cn\\itcast\\code\\day22\\IOTest\\pw.txt"),true);
 
         pw.write("hello");
         pw.write("world");
