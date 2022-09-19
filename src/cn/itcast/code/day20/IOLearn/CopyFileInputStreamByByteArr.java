@@ -8,9 +8,9 @@ import java.io.IOException;
 public class CopyFileInputStreamByByteArr {
     public static void main(String[] args) throws IOException {
 
-        FileInputStream srcFile = new FileInputStream("E:\\eclipseworkspace\\fos.txt");
+        FileInputStream srcFile = new FileInputStream("F:\\ideaWorkspace\\eclipseworkspace\\fos.txt");
 
-        FileOutputStream descFile = new FileOutputStream("E:\\eclipseworkspace\\des2.txt");
+        FileOutputStream descFile = new FileOutputStream("F:\\ideaWorkspace\\eclipseworkspace\\des2.txt");
 
        byte[] bys = new byte[1024];
        int len = 0;

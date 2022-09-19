@@ -25,10 +25,10 @@ public class CopyFileReaderDemo {
     public static void main(String[] args) throws IOException {
 
         //封装源文件
-        FileReader fr = new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\StringCoding.java");
+        FileReader fr = new FileReader("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\StringCoding.java");
 
         //封装目的地
-        FileWriter fw = new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\demo2.txt");
+        FileWriter fw = new FileWriter("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\demo2.txt");
 
         //复制
 

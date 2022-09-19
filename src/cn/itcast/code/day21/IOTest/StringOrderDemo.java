@@ -18,7 +18,7 @@ import java.util.Arrays;
 public class StringOrderDemo {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\descMultistage\\SrcFolder\\s.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\s.txt"));
 
         String line = br.readLine();
         br.close();;
@@ -34,7 +34,7 @@ public class StringOrderDemo {
 
         //把字符串再次写入ss.txt中
 
-        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\descMultistage\\SrcFolder\\ss.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\ss.txt"));
         bw.write(newS);
         bw.newLine();
         bw.flush();

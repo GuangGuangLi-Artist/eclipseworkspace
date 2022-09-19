@@ -16,8 +16,8 @@ import java.io.*;
 
 public class CopyFolder {
     public static void main(String[] args) throws IOException {
-        File srcFolder = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\SrcFolder");
-        File descFolder = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\DescFolder");
+        File srcFolder = new File("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\SrcFolder");
+        File descFolder = new File("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\DescFolder");
 
 
         if(!(descFolder.exists())){

@@ -8,7 +8,7 @@ public class BufferedInputStreamLearn {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("E:\\eclipseworkspace\\fos.txt"));
+        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("F:\\ideaWorkspace\\eclipseworkspace\\fos.txt"));
 
 
        /* int bys = 0;

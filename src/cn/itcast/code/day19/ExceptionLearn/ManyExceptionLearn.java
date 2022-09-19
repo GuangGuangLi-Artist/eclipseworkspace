@@ -55,9 +55,9 @@ public class ManyExceptionLearn {
 
 
         //method2();
-        //method3();
+        method3();
 
-        //newMethod4();
+        newMethod4();
 
 
         //常见的异常中使用的方法

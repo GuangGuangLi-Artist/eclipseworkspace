@@ -7,9 +7,9 @@ import java.io.*;
 
 public class CopyFileLearn {
     public static void main(String[] args) throws IOException {
-        FileInputStream srcFile = new FileInputStream("E:\\eclipseworkspace\\fos.txt");
+        FileInputStream srcFile = new FileInputStream("F:\\ideaWorkspace\\eclipseworkspace\\fos.txt");
 
-        FileOutputStream descFile = new FileOutputStream("E:\\eclipseworkspace\\des.txt");
+        FileOutputStream descFile = new FileOutputStream("F:\\ideaWorkspace\\eclipseworkspace\\des.txt");
 
         int by = 0;
         while ((by = srcFile.read()) != -1){

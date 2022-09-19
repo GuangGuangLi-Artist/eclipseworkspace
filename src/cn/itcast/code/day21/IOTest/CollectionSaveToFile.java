@@ -18,7 +18,7 @@ public class CollectionSaveToFile {
         arr.add("java");
 
         //目的地
-        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\array.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\array.txt"));
 
 
         for(String s: arr){

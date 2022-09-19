@@ -12,7 +12,7 @@ public class FileInputStreamByByteArr {
     public static void main(String[] args) throws IOException {
 
 
-        FileInputStream fis = new FileInputStream("E:\\eclipseworkspace\\fos.txt");
+        FileInputStream fis = new FileInputStream("F:\\ideaWorkspace\\eclipseworkspace\\fos.txt");
 
         byte[] bys = new byte[1024];
         int len = 0;

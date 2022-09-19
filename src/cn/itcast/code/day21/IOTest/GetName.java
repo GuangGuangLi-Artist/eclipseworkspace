@@ -18,7 +18,7 @@ import java.util.Random;
 public class GetName {
     public static void main(String[] args) throws IOException {
         BufferedReader br;
-        br = new BufferedReader(new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\name.txt"));
+        br = new BufferedReader(new FileReader("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\name.txt"));
 
         ArrayList<String> arr = new ArrayList<>();
 

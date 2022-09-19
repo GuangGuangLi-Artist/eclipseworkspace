@@ -13,12 +13,12 @@ import java.io.*;
 public class BufferedDemo {
     public static void main(String[] args) throws IOException {
 
-        //writer();
+        writer();
 
-        BufferedReader br = new BufferedReader(new FileReader("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw2.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw2.txt"));
 
         String line = null;
-        while ((line = br.readLine()) != null){
+        while ((line = br.readLine()) != null){//readLine()读取一个文本行。
             System.out.println(line);
         }
 
@@ -28,11 +28,11 @@ public class BufferedDemo {
     }
 
     private static void writer() throws IOException {
-        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw2.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\ideaWorkspace\\eclipseworkspace\\src\\cn\\itcast\\code\\day21\\IOLearn\\DemoFile\\bw2.txt"));
 
         for(int x=0;x<10;x++){
             bw.write("hello " + x);
-            bw.newLine();
+            bw.newLine();//写入一个行分隔符
             bw.flush();
         }
 

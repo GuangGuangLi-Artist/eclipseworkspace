@@ -9,7 +9,7 @@ public class BufferedOutputStreamLearn {
         /*FileOutputStream fos = new FileOutputStream("E:\\eclipseworkspace\\bos.txt");
         BufferedOutputStream bos = new BufferedOutputStream(fos);*/
 
-        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("E:\\\\eclipseworkspace\\\\bos.txt"));
+        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("F:\\ideaWorkspace\\eclipseworkspace\\bos.txt"));
 
 
         //写数据
