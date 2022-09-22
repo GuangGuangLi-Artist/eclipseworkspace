@@ -17,8 +17,8 @@ public class ThreadGroupDemo {
         System.out.println(t1.getThreadGroup().getName());
         System.out.println(t2.getThreadGroup().getName());
 
-        //t1.start();
-        //t2.start();
+        t1.start();
+        t2.start();
     }
 
 }

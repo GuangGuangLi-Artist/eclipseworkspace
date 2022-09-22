@@ -44,7 +44,7 @@ public class SendLearn {
 
             //创建数据并打包
             byte[] bys = line.getBytes();
-            DatagramPacket dp = new DatagramPacket(bys,bys.length,InetAddress.getByName("192.168.1.6"),10086);
+            DatagramPacket dp = new DatagramPacket(bys,bys.length,InetAddress.getByName("192.168.43.99"),10086);
 
             //调用Socket对象的发送方法发送数据包
             ds.send(dp);

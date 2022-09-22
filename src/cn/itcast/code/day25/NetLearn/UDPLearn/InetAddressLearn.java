@@ -22,7 +22,7 @@ import java.net.UnknownHostException;
 public class InetAddressLearn {
     public static void main(String[] args) throws UnknownHostException {
 
-        InetAddress address = InetAddress.getByName("192.168.1.6");
+        InetAddress address = InetAddress.getByName("192.168.43.99");
 
         //获取主机名和IP地址
         String name = address.getHostName();
