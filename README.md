@@ -1,3 +1,5 @@
 # eclipseworkspace
 java_review
-https://github.com/learsea/algorithm/blob/master/%E7%AE%97%E6%B3%95%20%E7%AC%AC4%E7%89%88.pdf
+
+VIP专栏：https://blog.csdn.net/qq_23934063/category_11880691.html
+牛客网华为机试：https://www.nowcoder.com/exam/oj/ta?page=1&pageSize=100&search=&tpId=37&type=37
