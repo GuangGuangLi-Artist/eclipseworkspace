@@ -61,13 +61,16 @@ public class FileDemo {
 
     public static void main(String[] args) {
 
-        File file  = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\demo.txt");
+        String property = System.getProperty("user.dir");
 
-        File file2 = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\FileLearn","demo2.txt");
+        File file  = new File(property + "\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\demo.txt");
 
-        File file3 = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo");
+        File file2 = new File(property + "\\src\\cn\\itcast\\code\\day19\\FileLearn","demo2.txt");
+
+        File file3 = new File(property + "\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\file3");
         File file4 = new File(file3,"demo3.txt");
 
+        System.out.println(file3.getAbsolutePath());
         System.out.println("mkdir:" + file3.mkdir());
 
         try {
@@ -76,14 +79,14 @@ public class FileDemo {
             e.printStackTrace();
         }
 
-        File file5 = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\AA\\BB");
+        File file5 = new File(property + "\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\AA\\BB");
         System.out.println("mkdirs:" + file5.mkdirs());
 
         //public boolean delete()
-        System.out.println("delete:" + file5.delete());
+        System.out.println("deleteBB:" + file5.delete());
 
         //删除文件
-        System.out.println("delete: " + file.delete());
+        System.out.println("deleteFile: " + file.delete());
 
 
         //先新建文件
@@ -93,7 +96,7 @@ public class FileDemo {
             e.printStackTrace();
         }
 
-        File file2New = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\FileLearn","lingqingxia.txt");
+        File file2New = new File(property +"\\src\\cn\\itcast\\code\\day19\\FileLearn","lingqingxia.txt");
 
         //重命名文件
         System.out.println("renameTo:" + file2.renameTo(file2New));
@@ -144,7 +147,7 @@ public class FileDemo {
         System.out.println("-----");
         //public String[] list():获取指定目录下的所有文件或者文件夹的名称数组
 
-        File file6 = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\");
+        File file6 = new File(property + "\\src\\cn\\itcast\\code\\day19\\");
         String [] strArr = file6.list();
         for(String s3: strArr){
             System.out.println(s3);

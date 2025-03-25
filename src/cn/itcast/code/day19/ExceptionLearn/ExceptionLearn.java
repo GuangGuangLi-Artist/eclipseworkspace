@@ -39,6 +39,9 @@ public class ExceptionLearn {
             System.out.println("over");
         }
 
+        System.out.println(Math.subtractExact(a,b));
+        System.out.println("把异常捕获之后继续执行到了这里");
+
 
 
 

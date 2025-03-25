@@ -9,6 +9,8 @@ public class HashMapLearn {
     public static void main(String[] args) {
         HashMap<String,String> hm = new HashMap<>();
 
+
+
         hm.put("001","李广");
         hm.put("002","苏表");
         hm.put("001","苏菲");

@@ -14,7 +14,8 @@ import java.io.File;
 
 public class BatchEditFileName {
     public static void main(String[] args) {
-        File srcFolder = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\AA");
+        String property = System.getProperty("user.dir");
+        File srcFolder = new File(property + "\\src\\cn\\itcast\\code\\day19\\FileLearn\\demo\\AA");
 
         File[] fileArr = srcFolder.listFiles();
 

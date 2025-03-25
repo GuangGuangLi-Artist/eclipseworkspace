@@ -28,7 +28,8 @@ import java.io.FilenameFilter;
 public class FileDemo2 {
 
     public static void main(String[] args) {
-        File file = new File("E:\\eclipseworkspace\\src\\cn\\itcast\\text");
+        String property = System.getProperty("user.dir");
+        File file = new File(property + "\\src\\cn\\itcast\\text");
 
        /* File[] fileArr = file.listFiles();
 
